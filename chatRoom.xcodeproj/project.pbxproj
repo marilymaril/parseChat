@@ -15,6 +15,8 @@
 		1C8F6977215E8281003CB7FE /* chatRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F6976215E8281003CB7FE /* chatRoomTests.swift */; };
 		1C8F6982215E8281003CB7FE /* chatRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F6981215E8281003CB7FE /* chatRoomUITests.swift */; };
 		1C8F6990215E83CB003CB7FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F698F215E83CB003CB7FE /* LoginViewController.swift */; };
+		1C8F6992215E8DCA003CB7FE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F6991215E8DCA003CB7FE /* ChatViewController.swift */; };
+		1CEE24602163093700DA1FE1 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEE245F2163093700DA1FE1 /* ChatCell.swift */; };
 		441745ED57EA25AA705F04B2 /* Pods_chatRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F073783B192F4AF6C7792D /* Pods_chatRoom.framework */; };
 		A284B53869FACE95C0B6BDF4 /* Pods_chatRoomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F51F3CCB5FD00FCA8FF61AF /* Pods_chatRoomTests.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +52,8 @@
 		1C8F6981215E8281003CB7FE /* chatRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatRoomUITests.swift; sourceTree = "<group>"; };
 		1C8F6983215E8281003CB7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C8F698F215E83CB003CB7FE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1C8F6991215E8DCA003CB7FE /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		1CEE245F2163093700DA1FE1 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		1ED3DD1F1441F73CB80FEB07 /* Pods-chatRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatRoom/Pods-chatRoom.release.xcconfig"; sourceTree = "<group>"; };
 		2F51F3CCB5FD00FCA8FF61AF /* Pods_chatRoomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatRoomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C6856B89B2B5EBE7A060E0 /* Pods-chatRoomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatRoomUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatRoomUITests/Pods-chatRoomUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				1C8F696A215E8281003CB7FE /* LaunchScreen.storyboard */,
 				1C8F696D215E8281003CB7FE /* Info.plist */,
 				1C8F698F215E83CB003CB7FE /* LoginViewController.swift */,
+				1C8F6991215E8DCA003CB7FE /* ChatViewController.swift */,
+				1CEE245F2163093700DA1FE1 /* ChatCell.swift */,
 			);
 			path = chatRoom;
 			sourceTree = "<group>";
@@ -381,6 +387,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C8F6990215E83CB003CB7FE /* LoginViewController.swift in Sources */,
+				1CEE24602163093700DA1FE1 /* ChatCell.swift in Sources */,
+				1C8F6992215E8DCA003CB7FE /* ChatViewController.swift in Sources */,
 				1C8F6962215E8281003CB7FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

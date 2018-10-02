@@ -21,11 +21,20 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
     @IBAction func onSignUp(_ sender: Any) {
         
         if (usernameField.text?.isEmpty)! || (passwordField.text?.isEmpty)!
         {
             loginAlertMsg.text = "Username or password empty"
+            let alertController = UIAlertController(title: "Empty Fields", message: "Username or password empty", preferredStyle: .alert)
+
+            let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
+            }
+            alertController.addAction(OKAction)
+            present(alertController, animated: true) {}
+        UIApplication.shared.keyWindow?.rootViewController?.present(alertController, animated: true) {}
+            
         }
         else
         {
@@ -39,10 +48,17 @@ class LoginViewController: UIViewController {
                 if success
                 {
                     print("New User!")
+                     self.performSegue(withIdentifier: "loginSegue", sender: nil)
                 }
                 else
                 {
-                    print(error?.localizedDescription as Any)
+                    let alertController = UIAlertController(title: "There was an Error!", message: error?.localizedDescription as Any as? String, preferredStyle: .alert)
+                    
+                    let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
+                    }
+                    alertController.addAction(OKAction)
+                    self.present(alertController, animated: true) {}
+
                 }
             }
         }
@@ -60,6 +76,7 @@ class LoginViewController: UIViewController {
                 if user != nil
                 {
                     print("You're logged in")
+                    self.performSegue(withIdentifier: "loginSegue", sender: nil)
                 }
             }
         }

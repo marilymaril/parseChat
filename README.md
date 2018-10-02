@@ -31,14 +31,14 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. It would be neat to see if anyone developed the chat further. I really wanted to make it look more like messaging apps that exist where your responses are on one side and other responses are on the other side, but I couldn't figure it out.
+2. I would like to discuss further the other ways a messaging app could be expanded.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://raw.githubusercontent.com/marilymaril/parseChat/master/parseChat.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
